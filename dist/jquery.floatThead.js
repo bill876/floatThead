@@ -237,7 +237,7 @@
         w += parseInt($table.css("borderRight"), 10);
       }
       for(var i=0; i < $fthCells.length; i++){
-        w += $fthCells.get(i).offsetWidth;
+        w += getOffsetWidth($fthCells.get(i));
       }
       return w;
     } else {
@@ -842,14 +842,15 @@
               });
             } else {
               var transform = 'translateX(' + pos.left + 'px) translateY(' + pos.top + 'px)';
+              var transform = 'translateX(' + 0 + 'px) translateY(' + 0 + 'px)';
               $floatContainer.css({
                 '-webkit-transform' : transform,
                 '-moz-transform'    : transform,
                 '-ms-transform'     : transform,
                 '-o-transform'      : transform,
                 'transform'         : transform,
-                'top': 0,
-                'left': 0
+                //'top': 0,
+                //'left': 0
               });
             }
             oldTop = pos.top;
