@@ -8,11 +8,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "uglifyjs": "2.7.5"
+    "uglify-js": "2.7.5"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mkoryak/floatThead.git"
+    "url": "git://github.com/bill876/floatThead.git"
   },
   "keywords": [
     "locked header",
@@ -27,8 +27,8 @@
   ],
   "author": "Misha Koryak",
   "license": "MIT",
-  "bugs": "https://github.com/mkoryak/floatThead/issues",
-  "homepage": "https://github.com/mkoryak/floatThead",
+  "bugs": "https://github.com/bill876/floatThead/issues",
+  "homepage": "https://github.com/bill876/floatThead",
   "npmName": "floatthead",
   "npmFileMap": [
     {
